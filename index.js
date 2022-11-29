@@ -1,8 +1,9 @@
 const inquirer = require('inquirer');
 const fs = require('fs');
 
-const generateREADME = ({title, description, installation, usage, github,email}) =>
+const generateREADME = ({title, description, installation, usage, github,email,license}) =>
   `
+  [![License](https://img.shields.io/badge/${license}.0-blue.svg)
   <${title}>
 
 ## description
@@ -25,15 +26,12 @@ ${installation}
 ${usage}
 
 ## Github
-My Github profile is https://github.com/${github}
+My Github profile is (https://github.com/${github})
 
 ##Contact Me
 I can be contacted at email: ${email}
 ## License
-
-[https://choosealicense.com/](https://choosealicense.com/).
-[https://choosealicense.com/licenses/mit/](https://choosealicense.com/licenses/mit/)
-[https://choosealicense.com/licenses/gpl-3.0/](https://choosealicense.com/licenses/gpl-3.0/)
+ The ${license}, can be found at (https://choosealicense.com/licenses/${license}/)
 
   `;
 
@@ -70,6 +68,12 @@ inquirer
       name: 'email',
       message: 'What is your email?',
     },
+    {
+        type: 'list',
+        name: 'license',
+        message: 'Which License this projetc is assigned for?',
+        choices:['MIT','gpl-3.0','ISC'],
+      },
     
     
   ])
