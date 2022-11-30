@@ -24,6 +24,15 @@ ${Installation}
 ## Usage
 
 ${Usage}
+***Prompt Inputs and Answers***
+![](./images/node.js.png)
+
+***Readme file generated***
+
+![](./images/readmeinjs.png)
+
+*** Readme file pushed to git repository***
+![](./images/ReadmeRepository.png)
 
 ## Questions
 
