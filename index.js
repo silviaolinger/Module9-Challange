@@ -31,7 +31,7 @@ ${Usage}
 
 ![](./images/readmeinjs.png)
 
-*** Readme file pushed to git repository***
+***Readme file pushed to git repository***
 ![](./images/ReadmeRepository.png)
 
 ## Questions
