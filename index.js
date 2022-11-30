@@ -28,7 +28,7 @@ ${Usage}
 ## Github
 My Github profile is (https://Github.com/${Github})
 
-##Contact Me
+## Contact ME
 I can be contacted at Email: ${Email}
 ## License
  The project is licensed with ${License}, details can be found at (https://choosealicense.com/licenses/${License}/)
