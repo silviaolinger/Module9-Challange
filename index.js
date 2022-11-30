@@ -1,37 +1,37 @@
 const inquirer = require('inquirer');
 const fs = require('fs');
 
-const generateREADME = ({title, description, installation, usage, github,email,license}) =>
+const generateREADME = ({Title, Description, Installation, Usage, Github,Email,License}) =>
   `
-  [![License](https://img.shields.io/badge/${license}.0-blue.svg)](https://choosealicense.com/licenses/${license}/)
-  <${title}>
+  [![License](https://img.shields.io/badge/License-${License}-blue.svg)](https://choosealicense.com/licenses/${License}/)
+  <${Title}>
 
-## description
+## Description
 
-- ${description}
+- ${Description}
 
 
 ## Table of Contents
 
-- [installation](#installation)
-- [usage](#usage)
-- [License](#license)
+- [Installation](#Installation)
+- [Usage](#Usage)
+- [License](#License)
 
-## installation
+## Installation
 
-${installation}
+${Installation}
 
-## usage
+## Usage
 
-${usage}
+${Usage}
 
 ## Github
-My Github profile is (https://github.com/${github})
+My Github profile is (https://Github.com/${Github})
 
 ##Contact Me
-I can be contacted at email: ${email}
+I can be contacted at Email: ${Email}
 ## License
- The project is licensed with ${license}, details can be found at (https://choosealicense.com/licenses/${license}/)
+ The project is licensed with ${License}, details can be found at (https://choosealicense.com/licenses/${License}/)
 
   `;
 
@@ -39,38 +39,38 @@ inquirer
   .prompt([
     {
       type: 'input',
-      name: 'title',
-      message: 'What is the Project title?',
+      name: 'Title',
+      message: 'What is the Project Title?',
     },
     {
       type: 'input',
-      name: 'description',
-      message: 'What is the description of the Project?',
+      name: 'Description',
+      message: 'What is the Description of the Project?',
     },
     {
         type: 'input',
-        name: 'installation',
+        name: 'Installation',
         message: 'How to Install the application?',
       },
       {
         type: 'input',
-        name: 'usage',
-        message: 'Describe the usage:',
+        name: 'Usage',
+        message: 'Describe the Usage:',
       },
 
     {
       type: 'input',
-      name: 'github',
-      message: 'What is your github username?',
+      name: 'Github',
+      message: 'What is your Github username?',
     },
     {
       type: 'input',
-      name: 'email',
-      message: 'What is your email?',
+      name: 'Email',
+      message: 'What is your Email?',
     },
     {
         type: 'list',
-        name: 'license',
+        name: 'License',
         message: 'Which License this projetc is assigned for?',
         choices:['mit','gpl-3.0','isc'],
       },

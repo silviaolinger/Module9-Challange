@@ -1,32 +1,32 @@
 
-  [![License](https://img.shields.io/badge/mit.0-blue.svg)](https://choosealicense.com/licenses/mit/)
-  <Wheater>
+  [![License](https://img.shields.io/badge/License-gpl-3.0-blue.svg)](https://choosealicense.com/licenses/gpl-3.0/)
+  <Wheater >
 
-## description
+## Description
 
-- blabla
+- bla bla bla
 
 
 ## Table of Contents
 
-- [installation](#installation)
-- [usage](#usage)
-- [License](#license)
+- [Installation](#Installation)
+- [Usage](#Usage)
+- [License](#License)
 
-## installation
+## Installation
 
-bla
+bla bla
 
-## usage
+## Usage
 
 bla
 
 ## Github
-My Github profile is (https://github.com/bla)
+My Github profile is (https://Github.com/silviaolinger)
 
 ##Contact Me
-I can be contacted at email: bla
+I can be contacted at Email: sylvynhaarc@hotmail.com
 ## License
- The project is licensed with mit, details can be found at (https://choosealicense.com/licenses/mit/)
+ The project is licensed with gpl-3.0, details can be found at (https://choosealicense.com/licenses/gpl-3.0/)
 
   
