@@ -1,10 +1,10 @@
 
-  [![License](https://img.shields.io/badge/MIT.0-blue.svg)
-  <Wheater >
+  [![License](https://img.shields.io/badge/mit.0-blue.svg)](https://choosealicense.com/licenses/mit/)
+  <Wheater>
 
 ## description
 
-- BLA BLA
+- blabla
 
 
 ## Table of Contents
@@ -15,18 +15,18 @@
 
 ## installation
 
-BLA BLA
+bla
 
 ## usage
 
-BLA BLA
+bla
 
 ## Github
-My Github profile is (https://github.com/silviaolinger)
+My Github profile is (https://github.com/bla)
 
 ##Contact Me
-I can be contacted at email: sylvynhaarc@hotmail.com
+I can be contacted at email: bla
 ## License
- The MIT, can be found at (https://choosealicense.com/licenses/MIT/)
+ The project is licensed with mit, details can be found at (https://choosealicense.com/licenses/mit/)
 
   

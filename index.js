@@ -3,7 +3,7 @@ const fs = require('fs');
 
 const generateREADME = ({title, description, installation, usage, github,email,license}) =>
   `
-  [![License](https://img.shields.io/badge/${license}.0-blue.svg)
+  [![License](https://img.shields.io/badge/${license}.0-blue.svg)](https://choosealicense.com/licenses/${license}/)
   <${title}>
 
 ## description
@@ -31,7 +31,7 @@ My Github profile is (https://github.com/${github})
 ##Contact Me
 I can be contacted at email: ${email}
 ## License
- The ${license}, can be found at (https://choosealicense.com/licenses/${license}/)
+ The project is licensed with ${license}, details can be found at (https://choosealicense.com/licenses/${license}/)
 
   `;
 
@@ -72,7 +72,7 @@ inquirer
         type: 'list',
         name: 'license',
         message: 'Which License this projetc is assigned for?',
-        choices:['MIT','gpl-3.0','ISC'],
+        choices:['mit','gpl-3.0','isc'],
       },
     
     
