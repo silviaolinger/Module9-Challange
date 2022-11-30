@@ -72,7 +72,7 @@ inquirer
         type: 'list',
         name: 'License',
         message: 'Which License this projetc is assigned for?',
-        choices:['mit','gpl-3.0','isc'],
+        choices:['mit','unlicense','isc'],
       },
     
     
