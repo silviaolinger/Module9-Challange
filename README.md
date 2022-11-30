@@ -1,10 +1,10 @@
 
-  [![License](https://img.shields.io/badge/License-isc-blue.svg)](https://choosealicense.com/licenses/isc/)
-  <BBBBBBB>
+  [![License](https://img.shields.io/badge/License-mit-blue.svg)](https://choosealicense.com/licenses/mit/)
+  <teste>
 
 ## Description
 
-- CCCCC
+- teste
 
 
 ## Table of Contents
@@ -15,18 +15,17 @@
 
 ## Installation
 
-DDDDD
+teste
 
 ## Usage
 
-EEEE
+teste
 
-## Github
+## Questions
+
 My Github profile is (https://Github.com/silviaolinger)
-
-## Contact ME
-I can be contacted at Email: sylvynhaarc@hotmail.com
+If you have additional question about this project, please send an email at sylvynhaarc@hotmail.com
 ## License
- The project is licensed with isc, details can be found at (https://choosealicense.com/licenses/isc/)
+ The project is licensed with mit, details can be found at (https://choosealicense.com/licenses/mit/)
 
   
